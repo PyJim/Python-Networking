@@ -1,3 +1,4 @@
+import os
 import socket
 
 # create socket object
@@ -6,8 +7,8 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Define the host and port
 
-host = '127.0.0.1'
-port = 12345
+host = os.getenv('SERVER_HOST')
+port = int(os.getenv('SERVER_PORT'))
 
 # bind the socket to the address
 
