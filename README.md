@@ -159,7 +159,7 @@ To run this script, you need:
 
 1. Run the script:
    ```bash
-   python http_request.py
+   python req.py
    ```
 2. The script will print the response data or an error message based on the response status.
 
