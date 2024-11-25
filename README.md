@@ -235,7 +235,7 @@ To run this script, you need:
 
 1. Run the script with elevated privileges (e.g., using `sudo` on Linux):
    ```bash
-   sudo python icmp_test.py
+   sudo python scap.py
    ```
 2. The script will send an ICMP packet to the target IP and display whether a response was received.
 
